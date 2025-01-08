@@ -128,3 +128,57 @@ nav ul li a{
 .choto-div p{
     font-family: open sans;
 }
+
+   /* Service Section Style Start From Here */
+
+.ser-title{
+    font-family: open sans;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ser-description{
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0 340px;
+    color: #757575;
+}
+
+/* This selector is for all card Element */
+.card1{
+    width: 260px;
+    padding: 100px 30px 30px 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 24px;
+    margin: 10px;
+}
+.card1 h3{
+    font-family: open sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card1 p{
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+}
+
+.card{
+    max-width: 1140px;
+    display: flex;
+    margin: -20px auto;
+}
+
+.ser-content{
+    max-width: 1600px;
+    text-align: center;
+    margin: 100px 200px;
+}
+
+#service{
+    margin: 100px 0;
+}
