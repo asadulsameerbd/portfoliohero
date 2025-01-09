@@ -231,3 +231,47 @@ nav ul li a{
     margin-top: 130px;
     margin-bottom: 50px;
 }
+
+/*  Footer Style Start From Here */
+
+.footer-container{
+    max-width: 1500px;
+    display: flex;
+    margin: auto;
+}
+.footer-title{
+    font-family: open sans;
+    font-size: 35px;
+}
+.footer-column .footer-description{
+    
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: normal;
+}
+.footer-column{
+    padding: 130px 100px ;
+    width: 50%;
+    align-items: center;
+    justify-content: start;
+}
+
+footer{
+    background-color: #FFF8F3;
+}
+.icon-img{
+    word-spacing: 20px ;
+}
+
+input[type="text"], input[type="email"]{
+    width: 450px;
+    height: 55px;
+    display: block;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+
