@@ -107,13 +107,13 @@ nav ul li a{
 .ab-container{
     margin: 0 0 70px 0;
     max-width: 830px;
-    padding: 130px 155px;
+    padding: 100px 155px;
 }
 #about{
     max-width: 1140px;
     background-color: #FFF8F3;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 .clr{
    color: #757575;
@@ -181,4 +181,53 @@ nav ul li a{
 
 #service{
     margin: 100px 0;
+}
+
+/*  "What i do" Container Start from here */
+
+.whatido-container{
+    display: flex;
+}
+.edu-description{
+    color: #757575;
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: normal;
+}
+.edu-subtitle{
+    color: #757575;
+    font-family: open sans;
+    font-size: 20px;
+    font-weight: semibold;
+}
+.edu-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: open sans;
+}
+.edu-head{
+    color:#474747;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:open  sans;
+}
+.edu{
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.whatido-container{
+    max-width: 1140px;
+    margin: 100px auto 0 auto;
+}
+
+.wtd-title{
+    font-size: 35px;
+    font-family: open sans;
+    font-weight: bold;
+    text-align: center;
+}
+#whatido{
+    margin-top: 130px;
+    margin-bottom: 50px;
 }
